@@ -1,0 +1,120 @@
+*{
+    margin: 100;
+    border: 100;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image:url(https://images.unsplash.com/photo-1560155016-bd4879ae8f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
+    /* background-color:red */
+    background-position: center;
+    background-size:cover
+}
+#right{
+    position: relative;
+    width: 50%;
+    height: 100%;
+background-image: url(https://images.unsplash.com/photo-1690710430306-da0cdee77710?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+background-position:center;
+background-size: cover;
+}
+#overlay1{
+/* position:relative; */
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 128, 0, 0.199);
+}
+#centre1{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: white;
+    }
+    #centre1 p1{
+        font-size:20px;
+        font-weight:10;
+        margin-top: 10px;
+        font-style:italic;
+        /* margin-top: 36px; */
+        margin-bottom:10px ;
+    }
+    #centre1 h1{
+        font-size:29px;
+        font-weight:30;
+    
+        
+    }
+    #centre1 button{
+       width: 300px;
+       height: 100px;
+       background-color: transparent;
+       color:black;
+        /* text-size:20px; */
+       margin-top: 20px;
+       border:8px solid white;
+       /* margin-bottom:20px ; */
+       
+    }
+    #centre1 button:hover{
+        background-color:greenyellow;
+        /* color:blue; */
+    }
+#overlay2{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    /* background-color:rgba(0, 128, 0, 0.199); */
+}
+#centre2{
+    position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: white;
+}
+#centre2 button{
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    color:black;
+     /* text-size:20px; */
+    margin-top: 20px;
+    border:8px solid white;
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+    /* margin-bottom:20px ; */
+    
+ }
+ #centre2 p1{
+    font-size:20px;
+    font-weight:10;
+    margin-top: 10px;
+    font-style:italic;
+    /* margin-top: 36px; */
+    margin-bottom:10px ;
+}
+#centre2 h1{
+    font-size:32px;
+    font-weight:30;
+
+    
+}
+#centre2 button:hover{
+    background-color:rgb(47, 85, 255);
+    color:blueviolet;
+}
+
+
